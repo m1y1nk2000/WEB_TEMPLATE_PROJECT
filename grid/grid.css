@@ -1,0 +1,1223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 800px;
+    background-image: url(https://advenx.wpengine.com/wp-content/uploads/2023/04/AdobeStock_562833631.webp);
+    /* border: 2px soliD red; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.m1 {
+    padding: 13px 30px;
+    display: grid;
+    font-size: 15px;
+    grid-template-columns: 4fr 9fr;
+    justify-content: space-between;
+    border: 1px solid rgba(99, 92, 92, 0.655);
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    text-align: start;
+    /* border: 2px solid rgb(205, 10, 10); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 30px;
+    font-size: 18x;
+    color: aliceblue;
+    align-items: center;
+}
+
+.me1:hover,
+.me2:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+
+.button1 {
+    text-align: end;
+    /* border: 2px solid rgb(207, 38, 38); */
+
+
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+    color: orange;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    color: rgb(251, 251, 251);
+    font-size: 16px;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+
+}
+
+.b1 {
+    color: rgb(251, 251, 249);
+    background: orange;
+    padding: 10px 26px 10px 26px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.b1:hover {
+    background: rgba(0, 0, 0, 0.773);
+}
+
+.action {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid white; */
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+}
+
+.action img {
+    height: 50px;
+    width: 170px;
+
+}
+
+.menu-bar {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+
+
+}
+
+/* .icons,
+.actions-brand,
+.menu-bar {
+    border: 1px solid white
+} */
+
+.actions-brand {
+    display: grid;
+    place-items: center;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    font-size: 20px;
+    /* cursor: pointer; */
+}
+
+.fa-user,
+.fa-cart-shopping {
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    border-right: 2px solid white;
+    padding: 1px 30px;
+    cursor: pointer;
+}
+
+.fa-bars {
+    font-size: 35px;
+    cursor: pointer;
+
+}
+
+.fa-bars:hover {
+    color: aquamarine;
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 2px;
+
+}
+
+.text1 {
+    color: white;
+    font-size: 43px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.text2 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Roboto Mono', monospace;
+    ;
+}
+
+.svg {
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 24%;
+    left: 14%;
+}
+
+.svg svg {
+    fill: #f7f1f1;
+}
+
+.wdt-rotate-animation-style {
+    animation: wdt-rotate-animation 10s linear infinite forwards;
+    transform-origin: center;
+    color: white;
+}
+
+@keyframes wdt-rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.letsgo {
+    display: grid;
+    margin-left: 60px;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.playbtn {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Josefin Sans', sans-serif;
+    align-items: end;
+}
+
+.fa-circle-play {
+    color: orange;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.fa-circle-play:hover {
+    color: rgba(252, 251, 250, 0.505);
+}
+
+.watchV {
+    border-right: 1px solid rgb(248, 252, 248);
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+
+.pippelImg {
+    height: 60px;
+}
+
+.pippelImg img {
+    width: 160px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fa-share {
+    padding-left: 50px;
+}
+
+.ptext {
+    margin-top: 20px;
+    margin-left: 22px;
+    text-shadow: 1px 1px 0 rgb(9, 9, 10);
+    font-size: 19px;
+
+}
+
+.go {
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(252, 156, 2);
+    border-radius: 50%;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.go:hover {
+    border: 2px solid white;
+    font-family: 'Sacramento', cursive;
+    background: rgba(255, 166, 0, 0.498);
+    transition: 0.2s;
+}
+
+.TextGo {
+    color: white;
+    font-size: 32px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+.fa-arrow-right {
+    color: white;
+
+}
+
+.bckgImg2nd {
+    background-color: rgba(5, 5, 5, 0.916);
+    background-image: url(images/bg-img.png);
+    background-size: 100% 100%;
+    width: 100%;
+
+}
+
+.blackbckg {
+    padding-bottom: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.832);
+}
+
+.textjourney {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+
+.tj {
+    color: white;
+    padding-top: 90px;
+}
+
+.tj p {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.tj h1 {
+    color: rgb(254, 253, 252);
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+.rigthleft {
+    color: white;
+    font-size: 50px;
+    padding-top: 170px;
+}
+
+.fa-circle-left:hover,
+.fa-circle-right:hover {
+    color: orange;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.photo3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 2px solid rgb(234, 38, 38); */
+    padding: 50px 25px;
+    column-gap: 30px;
+}
+
+.pictext {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+
+.pictext h5 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pictext h5:hover {
+    color: orange;
+    transition: 1s;
+}
+
+.pictext h6 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15px;
+    display: inline;
+}
+
+.pictext h6:hover {
+    color: orange;
+    transition: 1s;
+}
+
+.pictext i {
+    margin-left: 20px;
+}
+
+.effect {
+    background: url("https://advenx.wpengine.com/wp-content/uploads/2023/04/home-2-carousel-image-6.jpg");
+    background-size: 100% 100%;
+    transition: 0.3s;
+    padding: 140px 0px;
+}
+
+.effect:hover {
+    background-size: 105% 105%;
+    background-position: -10px -10px;
+    cursor: pointer;
+}
+
+.effect1 {
+    background: url("https://advenx.wpengine.com/wp-content/uploads/2023/04/home-2-carousel-image-5.jpg");
+    background-size: 100% 100%;
+    transition: 0.3s;
+}
+
+.effect1:hover {
+    background-size: 105% 105%;
+    background-position: -10px -10px;
+    cursor: pointer;
+}
+
+.effect2 {
+    background: url("https://advenx.wpengine.com/wp-content/uploads/2023/04/home-2-carousel-image-4.jpg");
+    background-size: 100% 100%;
+    transition: 0.3s;
+}
+
+.effect2:hover {
+    background-size: 105% 105%;
+    background-position: -10px -10px;
+    cursor: pointer;
+}
+
+.offer-bg-pic {
+    background-image: url("https://advenx.wpengine.com/wp-content/uploads/2023/03/bg-image-banner-home-scaled.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.whattext {
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.wtext {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.wtext h5 {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px;
+}
+
+.wtext h2 {
+    font-family: 'Lilita One', cursive;
+    padding-top: 20px;
+
+}
+
+.bestAdventure {
+    width: 72%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid red; */
+    color: white;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+.bestText {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-left: 70px;
+
+}
+
+.bestText h5 {
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(233, 230, 230, 0.845);
+
+}
+
+.bestText svg {
+    height: 70px;
+    color: rgba(240, 248, 255, 0.879);
+    padding-right: 15px;
+}
+
+.besttext1 {
+    text-align: end;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+
+}
+
+.besttext1 h2 {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.besttext1 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(233, 230, 230, 0.845);
+    padding-top: 10px;
+    padding-left: 100px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.icon svg {
+    height: 70px;
+    color: rgba(240, 248, 255, 0.879);
+    /* padding-left: 10px; */
+    text-align: end;
+    transform: translateX(66px);
+
+}
+
+.n1,
+.n2 {
+    display: block;
+}
+
+.Professional {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid red; */
+    margin-left: 210px;
+    margin-top: 50px;
+    width: 70%;
+    color: white;
+
+}
+
+.pro1 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+}
+
+.pro2 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+}
+
+.protext {
+    padding-left: 80px;
+}
+
+.protext h3 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.protext p {
+    padding-top: 30px;
+    color: rgba(233, 230, 230, 0.845);
+}
+
+.proicon1 {
+    transform: translateX(60px);
+}
+
+.protext1 {
+    padding-left: 117px;
+}
+
+.protext1 h3 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.protext1 p {
+    padding-top: 30px;
+    color: rgba(233, 230, 230, 0.845);
+
+}
+
+.proicon2 {
+    transform: translateX(85px);
+}
+
+.callandemail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin-left: 170px;
+    margin-top: 20px;
+    color: white;
+    padding: 70px 10px;
+
+}
+
+.call {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.calltext {
+    font-size: 20px;
+    padding-left: 13px;
+}
+
+.fa-phone {
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: orange;
+}
+
+.callandemail button {
+    /* border: 2px solid black; */
+    margin-left: 80px;
+    font-size: 17px;
+    height: 50px;
+    color: white;
+    background-color: orange;
+    border: none;
+}
+
+.callandemail button:hover {
+    background-color: rgb(12, 12, 36);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.email {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.emailtext {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.fa-envelope-open {
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: rgb(247, 167, 6);
+}
+
+.place-travel-bg {
+    background-image: url(images/bg-img.png);
+    background-color: black;
+    /* border: 2px solid green; */
+}
+
+.black-travel-bg {
+    background-color: rgba(0, 0, 0, 0.828);
+    color: white;
+    /* border: 2px solid blue; */
+
+}
+
+.place-text {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.place-text h1 {
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+.place-text h4 {
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.place-img {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.place-black-bg {
+    background-color: rgba(0, 0, 0, 0.532);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .place-img-1 {
+    height: 300px;
+    margin-left: 30px;
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+} */
+
+/* .place-img-1 span {
+    font-size: 10px;
+} */
+
+.place-img .fa-location-dot {
+    padding-right: 20px;
+}
+
+.place-img-2 {
+    background-image: url("https://advenx.wpengine.com/wp-content/uploads/2023/04/Acomm-catagory-4.webp");
+    height: 300px;
+    margin-left: 10px;
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+}
+
+.place-black-bg1 {
+    background-color: rgba(0, 0, 0, 0.532);
+    height: 300px;
+    width: 100%;
+
+}
+
+.place-black-bg1 div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 133px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.place-btn2 {
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: orange;
+    border: none;
+    transition: 0.5s;
+
+
+}
+
+.place-btn2:hover {
+    background-color: rgb(11, 11, 29);
+
+}
+
+.place-img-2 span {
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.pl-img {
+    background-image: url("https://advenx.wpengine.com/wp-content/uploads/2023/04/Acomm-catagory-1.webp");
+}
+
+.three-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    padding-bottom: 60PX;
+}
+
+.fa-location-dot {
+    padding-right: 20PX;
+}
+
+.baner2 {
+    background-image: url("https://advenx.wpengine.com/wp-content/uploads/2023/03/bg-for-video-banner-home-2-scaled.jpg");
+    background-size: 100% 100%;
+    /* height: 100vh; */
+
+}
+
+.baner-main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: white;
+    /* border: 2px solid red; */
+    width: 62%;
+    margin-left: 430px;
+    padding-top: 90px;
+}
+
+.baner-text {
+    font-size: 26px;
+}
+
+.baner-text1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(219, 219, 220);
+}
+
+.baner-btn button {
+    height: 43px;
+    width: 220px;
+    margin-top: 60px;
+    /* margin-right: 80px; */
+    border: none;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+.baner-btn button:hover {
+    background-color: rgb(15, 13, 36);
+}
+
+.clients-count {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    color: white;
+    width: 50%;
+    margin-left: 522px;
+    margin-top: 100px;
+    padding-bottom: 90px;
+}
+
+.clients-video {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    color: orange;
+    /* border: 2px solid rgb(12, 235, 53); */
+}
+
+.c100k {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.services10k {
+    font-size: 30px;
+    font-weight: bold;
+}
+.video-text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgba(248, 252, 251, 0.514);
+    cursor: pointer;
+}
+
+.video-text:hover {
+    color: orange;
+}
+
+.clients-video .fa-circle-play:hover {
+    color: rgb(250, 248, 248);
+}
+
+.Handpicked-Products-main-img-bg {
+    background-image: url(images/bg-img.png);
+    /* height: 200vh; */
+    background-color: rgba(0, 0, 0, 0.848);
+}
+
+.darek-black-bg-img {
+    background-color: rgba(0, 0, 0, 0.854);
+    /* height: 200vh; */
+}
+
+.arrival-text {
+    color: white;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.arrival-text h4 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.arrival-text h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Products-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+
+}
+
+.Products-img-1 {
+    text-align: center;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 100%;
+    
+}
+
+.Products-img-1 img {
+    height: 300px;
+    /* border: 2px solid rgb(85, 255, 0); */
+    background-color: rgba(128, 128, 128, 0.95);
+}
+
+.product-thumb-overly {
+    height: 300px;
+    width: 100%;
+    display: none;
+    background-color: rgba(6, 6, 6, 0.67);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding-top: 130px;
+}
+
+.product-thumb-overly button {
+    height: 45px;
+    width: 150px;
+    color: white;
+    background-color: orange;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+
+.product-thumb-overly button:hover {
+    background-color: rgb(16, 16, 34);
+}
+
+.Products-img-1:hover .product-thumb-overly {
+    display: block;
+
+}
+
+.price-text-star {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #f7f1f1;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+}
+
+.text-star-price {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 30px;
+
+}
+
+.text-star-price span {
+    font-size: 23px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.close-price {
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.close-price del {
+    color: rgb(148, 149, 150);
+    padding-right: 20px;
+}
+
+.booking-bg-pic {
+    background-image: url(images/bg-img.png);
+    background-color: black;
+    height: 150px;
+
+}
+
+.dark-booking-bg {
+    background-color: rgba(0, 0, 0, 0.834);
+    height: 150px;
+}
+
+.book-adventure-bg {
+    background-color: rgb(87, 85, 85);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    clip-path: polygon(0% -150px,100% 0%,100% 100%,0% 100%);
+}
+.phn-pic
+{
+    /* border: 2px solid red; */
+}
+.phn-pic img
+{
+    height:115vh;
+    position: absolute;
+    top: -40px;
+    left: 60px;
+    
+    
+}
+.booking-text
+{
+    /* border: 2px solid rgb(249, 216, 2); */
+    color: white;
+    padding-top: 50px;
+
+}
+.booking-text h3
+{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.booking-text h1
+{
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+}
+.booking-text p
+{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.oreng-div-phn
+{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 50%;
+    background-color: rgb(255, 157, 0);
+}
+.pic-googel
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    /* border: 2px solid green; */
+}
+.pic-googel img:nth-child(2)
+{
+    height: 67px;
+    /* border: 2px solid red; */
+    padding-left: 50px;
+    cursor: pointer;
+}
+.travel-blogs-bg-pic
+{
+    background-image: url(images/bg-img.png);
+    height: 280vh;
+    background-color: black;
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+
+}
+.travel-blogs-dark-bg
+{
+    height: 280vh;
+    background-color: rgba(0, 0, 0, 0.865);
+    color: white;
+}
+.travel-blogs-text
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.travel-blogs-text h1
+{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.travel-blogs-text h4
+{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.travel-blogs-imgs
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 2px solid red; */
+    padding-left: 10px;
+    margin-top: 60px;
+    gap: 10px;
+    /* position: relative; */
+    
+}
+/* .travel-pic1
+{
+    background-image: url("https://advenx.wpengine.com/wp-content/themes/advenx/modules/blog/templates/magnificent/assets/images/blog-mask-img-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+
+
+} */
+.pic-1 img,.pic-2 img,.pic-3 img
+{
+    height: 100vh;
+}
+
+
+.fa-calendar-days
+{
+    font-size: 45px;
+    margin-left: 20px;
+    color: black;
+
+}
+.date-month
+{
+    color: black;
+    margin-left: 10px;
+    
+}
+.travel-pic4 img
+{
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+.best-place-main-bg
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    border: 2px solid red;
+}
+.best-place-main-bg img{
+    width: 421px;
+    height: 421px;
+}
+
+
+.best-place-one 
+{
+    height: 400px;
+   background-image: url("https://advenx.wpengine.com/wp-content/uploads/2023/03/icon-box-with-image-bg-1.webp" );
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: white ;
+   display: grid;
+   grid-template-rows: 2fr 1fr 2fr ;
+   text-align: center;
+   position: relative;
+}
+.best-place-bg-dark
+{
+    background-color: rgba(0, 0, 0, 0.549);
+    height: 400px;
+}
+.svg-file
+{
+   margin-left: 150px;
+   padding-top: 50px;
+   /* border: 2px solid red; */
+}
+/* .best-place-two 
+{
+    background-image: url("https://advenx.wpengine.com/wp-content/uploads/2023/03/icon-box-with-image-bg-2.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+
+} */
+.best-place-three 
+{
+   background-image: url("https://advenx.wpengine.com/wp-content/uploads/2023/03/icon-box-with-image-bg-3.webp");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   height: 400px;
+}
+.Hiking-place-text
+{
+    font-size: 30px;
+    color:white;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.hiking-p-text
+{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.svg-file svg
+{
+    fill: white;
+    margin-left: 20px;
+    margin-top: 50px;
+    z-index: -1;
+    
+    
+}
+/* .oreng-hover-back
+{
+    height: 80px;
+    width: 80px;
+    background: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    
+    
+} */
+.sun{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    z-index: ;
+}
+.div-a{
+border: 1px solid black;
+}
+.div-b{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    
+}
